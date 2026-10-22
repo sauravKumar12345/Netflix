@@ -1,0 +1,27 @@
+
+=== churn_labels.csv ===
+ ['customer_id', 'churned', 'churn_date', 'churn_reason']
+
+=== content.csv ===
+ ['content_id', 'title', 'content_type', 'genre', 'release_year', 'duration_minutes', 'content_language', 'production_country', 'maturity_rating']
+
+=== customers.csv ===
+ ['customer_id', 'first_name', 'last_name', 'age', 'gender', 'country', 'state_or_region', 'city', 'registration_date', 'acquisition_channel', 'customer_segment', 'preferred_language']
+
+=== customer_feedback.csv ===
+ ['feedback_id', 'customer_id', 'feedback_date', 'rating', 'feedback_text', 'sentiment_label']
+
+=== payments.csv ===
+ ['payment_id', 'customer_id', 'subscription_id', 'payment_date', 'amount', 'payment_method', 'payment_status', 'failed_payment_reason']
+
+=== subscriptions.csv ===
+ ['subscription_id', 'customer_id', 'plan_id', 'subscription_start_date', 'subscription_end_date', 'subscription_status', 'auto_renew', 'cancellation_date', 'cancellation_reason', 'monthly_price']
+
+=== subscription_plans.csv ===
+ ['plan_id', 'plan_name', 'monthly_price', 'video_quality', 'max_devices', 'advertisements']
+
+=== support_tickets.csv ===
+ ['ticket_id', 'customer_id', 'ticket_date', 'issue_category', 'issue_subcategory', 'priority', 'ticket_status', 'resolution_time_hours', 'customer_satisfaction_score', 'ticket_description', 'support_agent_id']
+
+=== viewing_activity.csv ===
+ ['viewing_id', 'customer_id', 'content_id', 'viewing_date', 'watch_duration_minutes', 'completion_percentage', 'device_type', 'login_location', 'session_duration_minutes']
